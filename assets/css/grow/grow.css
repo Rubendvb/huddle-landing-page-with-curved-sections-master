@@ -1,0 +1,24 @@
+.grow {
+  background-color: var(--very-pale-blue);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.grow__img {
+  width: 100%;
+  height: auto;
+  padding: 0 1.5rem;
+  margin-top: 5rem;
+}
+
+.grow > div:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+.grow > div:nth-child(2) {
+  order: -1;
+  margin-bottom: 5rem;
+}

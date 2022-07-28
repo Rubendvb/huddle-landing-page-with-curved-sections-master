@@ -1,0 +1,8 @@
+.flowing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+  background-image: url("/assets/images/bg-section-bottom-mobile-1.svg");
+  background-repeat: no-repeat;
+}
