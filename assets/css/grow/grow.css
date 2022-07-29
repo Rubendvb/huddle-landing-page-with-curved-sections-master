@@ -7,6 +7,16 @@
   padding: 0 1.5rem;
 }
 
+.title2 {
+  color: var(--very-dark-cyan);
+  font-size: 1.125rem;
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .grow__img {
   width: 100%;
   height: auto;
