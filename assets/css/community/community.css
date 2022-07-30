@@ -135,13 +135,12 @@
     padding: 0 6rem 16rem;
   }
 
-  .title {
-    font-size: 3.1rem;
+  .community p {
+    width: 38%;
   }
 
-  .paragraph {
-    font-size: 1.3rem;
-    width: 50%;
+  .title {
+    font-size: 3.1rem;
   }
 
   .btn-start {

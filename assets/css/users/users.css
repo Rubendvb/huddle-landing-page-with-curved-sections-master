@@ -16,3 +16,19 @@
 .users > div:nth-child(2) {
   order: -1;
 }
+
+@media screen and (min-width: 1440px) and (max-width: 2200px) {
+  .users {
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 6rem;
+  }
+
+  .users div:nth-child(1) p {
+    width: 80%;
+  }
+
+  .users > div:nth-child(2) {
+    order: 0;
+  }
+}

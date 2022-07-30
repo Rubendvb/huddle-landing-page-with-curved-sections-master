@@ -19,5 +19,12 @@
   .build {
     background-image: url("/assets/images/bg-section-bottom-desktop-2.svg"),
       url("/assets/images/bg-footer-top-desktop.svg");
+    padding-bottom: 15rem;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2200px) {
+  .margin__title {
+    margin-top: 15rem;
   }
 }

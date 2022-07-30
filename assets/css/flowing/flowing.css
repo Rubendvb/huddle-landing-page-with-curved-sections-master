@@ -30,6 +30,7 @@
     align-items: center;
     background-image: url("/assets/images/bg-section-bottom-desktop-1.svg"),
       url("/assets/images/bg-section-top-desktop-2.svg");
+    padding: 0px 6rem 16rem;
   }
 
   .flowing > div:nth-child(1) {
