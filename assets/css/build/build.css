@@ -8,9 +8,16 @@
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
   background-position: top, bottom;
-  padding-bottom: 17rem;
+  padding-bottom: 12rem;
 }
 
 .margin__title {
   margin-top: 12rem;
+}
+
+@media screen and (min-width: 768px) {
+  .build {
+    background-image: url("/assets/images/bg-section-bottom-desktop-2.svg"),
+      url("/assets/images/bg-footer-top-desktop.svg");
+  }
 }

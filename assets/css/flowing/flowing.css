@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 1.5rem;
+  padding: 0 1.5rem 10rem;
   background-image: url("/assets/images/bg-section-bottom-mobile-1.svg"),
     url("/assets/images/bg-section-top-mobile-2.svg");
   background-repeat: no-repeat, no-repeat;
@@ -17,6 +17,8 @@
   margin: 12rem 0 5rem 0;
 }
 
-.flowing > div:nth-child(2) {
-  margin-bottom: 10rem;
+@media screen and (min-width: 768px) {
+  .flowing {
+    padding-bottom: 16rem;
+  }
 }
