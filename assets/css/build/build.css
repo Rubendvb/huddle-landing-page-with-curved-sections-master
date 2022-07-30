@@ -3,10 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/images/bg-section-bottom-mobile-2.svg");
-  background-repeat: no-repeat;
-  background-position: top;
-  margin-bottom: 7rem;
+  background-image: url("/assets/images/bg-section-bottom-mobile-2.svg"),
+    url("/assets/images/bg-footer-top-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: top, bottom;
+  padding-bottom: 17rem;
 }
 
 .margin__title {
