@@ -21,6 +21,12 @@
   color: var(--pink);
   width: 6rem;
   padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  color: var(--light-pink);
+  border-color: var(--light-pink);
 }
 
 @media screen and (min-width: 768px) {

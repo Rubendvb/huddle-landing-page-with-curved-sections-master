@@ -79,13 +79,18 @@
 .footer__newsletter--suscribe-btn {
   align-self: flex-end;
   background-color: var(--pink);
-  border: 1px solid var(--pink);
+  border: none;
   border-radius: 0.5rem;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 600;
   height: 3rem;
   width: 50%;
+  cursor: pointer;
+}
+
+.footer__newsletter--suscribe-btn:hover {
+  background-color: var(--light-pink);
 }
 
 .footer__info--phoneEmail {
@@ -103,6 +108,25 @@
   margin: 2rem 0.7rem 0 0;
   font-size: 2rem;
   color: var(--very-pale-blue);
+  cursor: pointer;
+}
+
+.footer__info--icons i:hover {
+  color: hsl(191deg 90% 61%);
+}
+
+.footer__span {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer__span span {
+  display: none;
+  position: absolute;
+  top: 3.75rem;
+  color: var(--light-red);
+  font-size: 0.75rem;
 }
 
 .attribution {
